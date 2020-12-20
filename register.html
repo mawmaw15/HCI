@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="top">
+        <p>Register</p>
+    </div>
+    <div class="form-container">
+        <form action="">
+            <label class="lbl">E-mail</label>
+            <input type="email" name="txtEmail" id="txtEmail" class="input" placeholder="Enter E-mail Address">
+            <br>
+            <p class="lbl">Password</p>
+            <input type="password" name="txtPassword" id="txtPassword" class="input" placeholder="Enter Password">
+            <br>
+            <p class="lbl">Address</p>
+            <textarea name="txtAddress" id="txtAddress" class="input" placeholder="Enter Address" cols="30" rows="5"></textarea>
+            <br>
+            <p class="lbl">Date of Birth</p>
+            <input type="date" name="dtDOB" id="dob" class="input">
+            <br>
+            <p class="lbl">Gender</p>
+            <input type="radio" name="gender" id="rbMale">Male
+            <br>
+            <input type="radio" name="gender" id="rbFemale">Female
+            <br>
+            <br>
+            <label id="lblError"></label>
+            <br>
+            <input type="button" name="btnRegister" id="btnRegister" value="REGISTER" onclick="validateForm();">
+        </form>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript" src="script.js"></script>
