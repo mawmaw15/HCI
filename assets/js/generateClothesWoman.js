@@ -1,13 +1,11 @@
-var itemlist_ref = document.getElementById("itemlist").firstElementChild;
-var item = itemlist_ref.firstElementChild;
+function addItems(itemlist_ref) {
+    var images = ["assets/images/v-neck-shirt-girl.jpg","assets/images/shirt-girl.jpg","assets/images/t-shirt-girl.jpg","assets/images/white-shirt-girl.jpg"]
+    var index = Math.floor(Math.random() * images.length);
+    itemlist_ref.innerHTML +=  '<div class="item"><img style="background-image:url('+images[index]+')"><div class="description"><h1>Just normal image</h1><p>The price is in discount</p></div></div>'; 
+}
 
-console.log(item);
+var itemlist_ref = document.getElementById("itemlist-container");
 
-for (var i = 0; i<10; i++){
-    var card_tag = document.createElement("div").classList.add("item");
-    
-    var img = document.createElement("img");
-    card_tag.appendChild(img);
-    
-    itemlist_ref.appendChild(card_tag);
+for (var i = 0; i<12; i++){
+    addItems(itemlist_ref);
 }

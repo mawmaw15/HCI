@@ -56,18 +56,34 @@ nav .container {
 /* Search bar */
 
 #searchbar {
-    height: 10vh;
+    height: 50vh;
+    background-image: url("../images/sandra-seitamaa-0nM3mFNuAaI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+
+    background-attachment: fixed;
 }
 
 #searchbar .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+#searchbar .container h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding: 1em;
+    color: #ffffff;
 }
 
 #searchbar .container form input.searchbar {
     padding:8px 15px;
-    background:rgba(50, 50, 50, 0.2);
+    background:rgba(255, 255, 255, 0.6);
     border:0px solid #dbdbdb;
 }
 
@@ -89,10 +105,35 @@ nav .container {
 /* https://blog.udemy.com/search-box-css/ */
 
 /* itemlist */
+#itemlist{
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+#itemllist .container {
+    height: auto;
+}
+
+#itemlist .container h1.title {
+    padding-top:1em;
+    padding-bottom:1.5em;
+    font-size: 2em;
+}
+
+#itemlist .container #itemlist-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    overflow:hidden;
+    flex-wrap: wrap;
+}
+
 .item {
     width: 20em;
     height: 25em;
     padding-bottom: 1em;
+    margin-bottom: 3em;
 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -104,7 +145,7 @@ nav .container {
     height: 20em;
     border-radius: 5px 5px 0 0;
     
-    background-image: url("../images/v-neck-shirt.jpg");
+    background-image: url("../images/v-neck-shirt-girl.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -121,3 +162,37 @@ nav .container {
 
 /* References */
 /* https://www.w3schools.com/howto/howto_css_cards.asp */
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #333;
+    color:white;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height:80%;
+}
+
+footer .container .column-footer {
+    padding: 2em;
+    max-width: 50%;
+}
+
+footer .container .column-footer ul{
+    padding-left: 2em;
+}
+
+footer .container .column-footer h2{
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+}
+
+footer p.copyright {
+    text-align: center;
+}
