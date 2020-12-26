@@ -29,6 +29,9 @@ function validateForm() {
     else if(male == false && female == false) {
         error.innerHTML = "Choose gender";
     }
+    else{
+        error.innerHTML = "";
+    }
 
     if(error.innerHTML == "") {
         alert('Register success!');
