@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="./assets/css/register.css">
 </head>
 <body>
-    <div class="top">
-        <p>Register</p>
-    </div>
+    <div class="header">
+        <div class="logo">
+            <div class="image">
+                <img src="./assets/images/logonobg.png" alt="logo-bulan" width="125px" height="65px">
+            </div>
+        </div>
+        <div class="top">
+            <p id="regis">REGISTER</p>
+        </div>
+    </div>    
+
     <div class="form-container">
         <form action="">
-            <label class="lbl">E-mail</label>
+            <label class="lbl">E-mail</label> <br>
             <input type="email" name="txtEmail" id="txtEmail" class="input" placeholder="Enter E-mail Address">
             <br>
             <p class="lbl">Password</p>
@@ -25,15 +33,23 @@
             <input type="date" name="dtDOB" id="dob" class="input">
             <br>
             <p class="lbl">Gender</p>
-            <input type="radio" name="gender" id="rbMale">Male
+            <input type="radio" name="gender" id="rbMale"> Male
             <br>
-            <input type="radio" name="gender" id="rbFemale">Female
+            <input type="radio" name="gender" id="rbFemale"> Female
             <br>
             <br>
-            <label id="lblError"></label>
+            <label id="lblError"></label><br>
             <br>
             <input type="button" name="btnRegister" id="btnRegister" value="REGISTER" onclick="validateForm();">
         </form>
+    </div>
+
+    <div class="footer">
+        <div class="cp">
+            <p id="txt">
+                Copyright © 2020 Bulan
+            </p>
+        </div>
     </div>
 </body>
 </html>
