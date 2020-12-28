@@ -5,9 +5,9 @@ $(document).ready(function(){
 
     
     function sliding(){
-
-        if(currIdx !=2){
-            $('.slider').animate({left: "-=1000px"}, 500);
+        var slider = $('.slider').width()
+        if(currIdx !=3){
+            $('.slider').animate({left: "-="+slider+"px"}, 500);
             currIdx++;
         }
         else{

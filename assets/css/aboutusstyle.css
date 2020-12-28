@@ -49,6 +49,11 @@ nav .container {
     padding: 1em;
 }
 
+#right-nav ul > li a {
+    text-decoration: none;
+    color:white;
+}
+
 .isi{
     text-align: center;
     font-size: 50px;

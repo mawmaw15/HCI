@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="./assets/css/homepagestyle.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/jquery-3.5.1.min.js"></script>
 </head>
 <body>
     <nav>
         <div class="container flex">
             <div id="left-nav">
-                <img src="./assets/images/logonobg.png" alt="logo-bulan" width="125px" height="65px">
+                <a href="./homepage.html"><img src="./assets/images/logonobg.png" alt="logo-bulan" width="125px" height="65px"></a>
             </div>
             <div id="right-nav">
                 <ul>
                    <li>Category</li>
-                   <li>About Us</li>
-                   <li>Register</li> 
+                   <li><a href="./aboutus.html">About Us</a></li>
+                   <li><a href="./register.html">Register</a></li> 
                 </ul>
             </div>
         </div>
@@ -27,54 +28,50 @@
 
         <div class="frame">
             <div class="slider">
-                <img src="./assets/images/cashback.png" alt="" width="1000px" height="500px"> 
-                <img src="./assets/images/Discount 80%!!.png" alt="" width="1000px" height="500px">
+                <div class="slider-object background-cover" style="background-image: url(./assets/images/nimble-made-7RIMS-NMsbc-unsplash.jpg);"></div>
+                <div class="slider-object" style="background-image: url(./assets/images/cashback.png);"></div>
+                <div class="slider-object" style="background-image:url('./assets/images/Discount 80%!!.png');"></div>
             </div>
             
         </div>
 
     </div>
 
-    <div class="disproduct-container">
-        <p>Discount Products</p>
-        <div class="button">
+    <div class="container">
+        <div class="disproduct-container">
+            <p>Discount Products</p>
             <button>see more</button>
         </div>
-        
-    </div>
-
-    <div class="container-gambar-disc">
-        <div class="gambar1">
-            <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
+    
+        <div class="container-gambar-disc">
+            <div class="gambar1">
+                <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
+            </div>
+            <div class="gambar2">
+                <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
+            </div>
+            <div class="gambar3">
+                <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
+            </div>
+    
         </div>
-        <div class="gambar2">
-            <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
-        </div>
-        <div class="gambar3">
-            <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
-        </div>
-
-    </div>
-
-    <div class="latproduct-container">
-        <p>Latests Products</p>
-        <div class="button">
+    
+        <div class="latproduct-container">
+            <p>Latests Products</p>
             <button>see more</button>
         </div>
-        
-    </div>
-
-    <div class="container-gambar-latest">
-        <div class="gambar1latest">
-            <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
+    
+        <div class="container-gambar-latest">
+            <div class="gambar1latest">
+                <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
+            </div>
+            <div class="gambar2latest">
+                <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
+            </div>
+            <div class="gambar3latest">
+                <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
+            </div>
         </div>
-        <div class="gambar2latest">
-            <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
-        </div>
-        <div class="gambar3latest">
-            <img src="./assets/images/v-neck-shirt-girl.jpg" width="200px" height="200px" alt="">
-        </div>
-
     </div>
 
     <footer>
@@ -98,7 +95,7 @@
         </p>
     </footer>
 
-
     <script src="./assets/js/homepagescript.js"></script>
+    <script src="./assets/js/jquery_navbar.js"></script>
 </body>
 </html>

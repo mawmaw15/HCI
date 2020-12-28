@@ -60,6 +60,11 @@ nav .container {
     padding: 1em;
 }
 
+#right-nav ul > li a {
+    text-decoration: none;
+    color:white;
+}
+
 /* Search bar */
 
 #searchbar {
