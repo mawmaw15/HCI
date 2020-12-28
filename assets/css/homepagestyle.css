@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+
+    width:80%;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: #333;
+    color: white;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    font-size: 1.75em;
+}
+
+#right-nav ul {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#right-nav ul > li {
+    list-style-type: none;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.container-isi{
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.frame{
+    width: 1000px;
+    height: 500px;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.slider{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.disproduct-container{
+    font-size: 30px;
+    padding-left: 75px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button{
+    
+    padding-left: 10px;
+    
+}
+
+.container-gambar-disc{
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-evenly
+}
+
+.gambar1{
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.gambar2{
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.gambar3{
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.container-gambar-latest{
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 50px;
+}
+
+.gambar1latest{
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.gambar2latest{
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.gambar3latest{
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.latproduct-container{
+    font-size: 30px;
+    padding-left: 80px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+footer {
+    
+    width: 100%;
+    height: 30vh;
+    background-color: #333;
+    color:white;
+}
+
+footer .container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height:80%;
+}
+
+footer .container .column-footer {
+    padding: 2em;
+    max-width: 50%;
+}
+
+footer .container .column-footer ul{
+    padding-left: 2em;
+}
+
+footer .container .column-footer h2{
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+}
+
+footer p.copyright {
+    text-align: center;
+}
