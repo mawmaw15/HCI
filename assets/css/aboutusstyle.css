@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+
+    width:80%;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: #333;
+    color: white;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    font-size: 1.75em;
+}
+
+#right-nav ul {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#right-nav ul > li {
+    list-style-type: none;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.isi{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.isinyaisi{
+    text-align:justify;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contact-us{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.Twitter{
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.bulanstore{
+    display: inline-block;
+    font-size: 15px;
+}    
+
+.instagram{
+    padding-left: 50px;
+    padding-top: 5px;
+    
+}
+
+.bulan_store{
+    display: inline-block;
+    font-size: 15px;
+    
+}
+
+.phone{
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.nomor{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.location{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.gambarlocation{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.locationtext{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #333;
+    color:white;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height:80%;
+}
+
+footer .container .column-footer {
+    padding: 2em;
+    max-width: 50%;
+}
+
+footer .container .column-footer ul{
+    padding-left: 2em;
+}
+
+footer .container .column-footer h2{
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+}
+
+footer p.copyright {
+    text-align: center;
+}
