@@ -59,74 +59,79 @@ nav .container {
     color:white;
 }
 
+hr{
+    color: black;
+}
+
+.whoarewe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .isi{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
+    font-weight: 600;
     padding-top: 50px;
 }
 
 .isinyaisi{
+    display: flex;
+    justify-content: center;
     text-align:justify;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 5px;
     padding-right: 50px;
     padding-left: 50px;
+    width: 500px;
+    margin-left: 30%;
 }
 
-.contact-us{
-    font-size: 30px;
-    padding-top: 30px;
-    padding-left: 50px;
+.where{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
-.Twitter{
-    padding-left: 50px;
-    padding-top: 5px;
-}
-
-.bulanstore{
-    display: inline-block;
-    font-size: 15px;
-}    
-
-.instagram{
-    padding-left: 50px;
-    padding-top: 5px;
-    
-}
-
-.bulan_store{
-    display: inline-block;
-    font-size: 15px;
-    
-}
-
-.phone{
-    padding-left: 50px;
-    padding-top: 5px;
-}
-
-.nomor{
-    display: inline-block;
-    font-size: 15px;
+#judul{
+    font-weight: 600;
+    font-size: 35px;
 }
 
 .location{
-    text-align: center;
-    font-size: 40px;
-    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
 }
 
-.gambarlocation{
-    text-align: center;
-    padding-top: 10px;
+.txt, .gambarlocation, .locationtext{
+    display: flex;
+    justify-content: center;
 }
 
 .locationtext{
-    text-align: center;
-    font-size: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.twitter, .instagram, .phone{
+    display: flex;
+    justify-content: center;
+}
+
+#capt{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 18px;
 }
 
 footer {
