@@ -63,6 +63,10 @@ hr{
     color: black;
 }
 
+body{
+    background-color: rgba(238, 238, 238, 0.734);
+}
+
 .whoarewe {
     display: flex;
     flex-direction: column;
@@ -106,6 +110,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     width: 60%;
+    margin-left: 120px;
 }
 
 .txt, .gambarlocation, .locationtext{
@@ -120,7 +125,7 @@ hr{
 .contact-us{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
 }
 
 .twitter, .instagram, .phone{

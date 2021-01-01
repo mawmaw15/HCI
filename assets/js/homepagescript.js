@@ -27,7 +27,7 @@ $(document).ready(function(){
         itemlist_ref.innerHTML +=  '<div class="item"><img style="background-image:url('+images[index]+')"><div class="description"><h1>'+names[index]+'</h1><p>Rp. '+prices[index]+'</p></div></div>'; 
     }
 
-    setInterval(sliding, 1500);
+    setInterval(sliding, 3000);
     var itemlist_ref = document.getElementById("container-gambar-disc");
     var itemlist2_ref = document.getElementById("container-gambar-latest");
     
