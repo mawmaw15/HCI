@@ -4,6 +4,14 @@
     font-family: monospace;
 }
 
+.center {
+    text-align:center;
+}
+
+.margin-3 {
+    margin: 3em 0em;
+}
+
 .container{
     margin-left: 10%;
     margin-right: 10%;
@@ -60,7 +68,7 @@ nav .container {
 }
 
 .container-isi{
-    height: 70vh;
+    height: 100vh;
     width: 100%;
     background-color: white;
     display: flex;
@@ -91,16 +99,121 @@ nav .container {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
 }
 
 .background-cover {
     background-size: cover;
 }
 
+#promotion {
+    width: 100%;
+    height: 20vh;
+    margin-top:3em;
+}
+
+#promotion .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#promotion .container h2 {
+    text-align: center;
+    width:50%;
+    padding: 2em;
+}
+
+#special-product {
+    width: 100%;
+    height: 40vh;
+    margin: 3em 0em;
+}
+
+#special-product .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#special-product .container .description {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#special-product .container .description > * {
+   margin-bottom: 0.75em;
+}
+
+#special-product .container .description button {
+    width: 10em;
+    margin-left: 0;
+}
+
+#special-product .container div.images{
+    width: auto;
+    height: 100%;
+}
+
+#special-product .container div.images img{
+    width: auto;
+    height: 100%;
+    border-radius: 1em;
+}
+
+#promotion2 {
+    width: 100%;
+    height: 65vh;
+
+    background-image: url("../images/donald-martinez-yocFCd9gtHk-unsplash.jpg");
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#promotion2 .container {
+    display: flex;
+    align-items: center;
+}
+
+#promotion2 .container .box {
+    width: 30em;
+    height: 30em;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#promotion2 .container .box h1 {
+    font-size: 2.5em;
+    padding: 1em;
+}
+
+#promotion2 .container .box p {
+    text-align: center;
+    width: 22em;
+}
+
+#promotion2 .container .box button {
+    margin: 2em;
+}
+
 .disproduct-container{
-    font-size: 30px;
-    padding-left: 75px;
-    padding-top: 30px;
+    font-size: 30px;    
+    padding-top: 1em;
     display: flex;
     justify-content: flex-start;
 }
@@ -113,60 +226,76 @@ button{
     padding: 0.5em 1em;
 }
 
-.container-gambar-disc{
-    padding-top: 50px;
+#container-gambar-disc{
+    padding-top: 25px;
+    width: 100%;
+    height: 100%;
+
     display: flex;
-    justify-content:space-evenly
-}
-
-.gambar1{
-    border-radius: 10%;
-    overflow: hidden;
-}
-
-.gambar2{
-    border-radius: 10%;
-    overflow: hidden;
-}
-
-.gambar3{
-    border-radius: 10%;
-    overflow: hidden;
-}
-
-.container-gambar-latest{
-    padding-top: 50px;
-    display: flex;
+    flex-wrap: wrap;
     justify-content:space-evenly;
-    padding-bottom: 50px;
 }
 
-.gambar1latest{
-    border-radius: 10%;
-    overflow: hidden;
-}
-
-.gambar2latest{
-    border-radius: 10%;
-    overflow: hidden;
-}
-
-.gambar3latest{
-    border-radius: 10%;
-    overflow: hidden;
+#container-gambar-latest{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 }
 
 .latproduct-container{
+    padding-top: 1em;
     font-size: 30px;
-    padding-left: 80px;
-    padding-top: 150px;
     display: flex;
     justify-content: flex-start;
-    
+}
+
+#newsletter {
+    width: 100%;
+    height: 30vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 3em; 
+}
+
+#newsletter .container {
+    width:auto;
+    padding: 2em;
+    border: 2px dashed #333;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#newsletter .container h1 {
+    font-size: 2em;
+}
+
+#newsletter .container form input.subscribe {
+    padding: 6px 15px;
+    background:rgba(255, 255, 255, 0.6);
+}
+
+#newsletter .container form input.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #333;
+    background-color:#333;
+    color:#fafafa;
+}
+
+#newsletter form input.button:hover {
+    background-color:#fff;
+    color:#333;
 }
 
 footer {
-    
     width: 100%;
     height: 30vh;
     background-color: #333;
