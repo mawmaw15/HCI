@@ -7,12 +7,13 @@ function validateForm() {
     var dob = document.getElementById('dob').value;
     var male = document.getElementById('rbMale').checked;
     var female = document.getElementById('rbFemale').checked;
+    var agree =document.getElementById('chkAgree').checked;
 
     if(email == "") {
         error.innerHTML = "Email must be filled.";
     }
     else if(email.indexOf('@') == -1 || email.indexOf('.') == -1 || email.indexOf('@') == 0 || email.indexOf('.') == 0) {
-        error.innerHTML = "Email must be in correct format. [e.g. aaa@gmail.com]"
+        error.innerHTML = "Email must be in correct format.<br>[e.g. aaa@gmail.com]"
     }
     else if(password == "") {
         error.innerHTML = "Password must be filled.";
@@ -27,7 +28,10 @@ function validateForm() {
         error.innerHTML = "Enter your date of birth.";
     }
     else if(male == false && female == false) {
-        error.innerHTML = "Choose gender";
+        error.innerHTML = "Choose gender.";
+    }
+    else if(agree == false) {
+        error.innerHTML = "You must agree to our terms and conditons.";
     }
     else{
         error.innerHTML = "";

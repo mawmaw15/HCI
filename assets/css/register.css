@@ -87,8 +87,16 @@ body{
 #lblError{
     color: red;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
+}
+
+#lblGender {
+    font-size: 17px;
+}
+
+#agree{
+    font-size: 16px;
 }
 
 .footer{

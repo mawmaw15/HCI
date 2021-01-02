@@ -33,11 +33,13 @@
             <input type="date" name="dtDOB" id="dob" class="input">
             <br>
             <p class="lbl">Gender</p>
-            <input type="radio" name="gender" id="rbMale"> Male
+            <input type="radio" name="gender" id="rbMale"> <label id="lblGender">Male</label>
             <br>
-            <input type="radio" name="gender" id="rbFemale"> Female
-            <br>
-            <br>
+            <input type="radio" name="gender" id="rbFemale"> <label id="lblGender">Female</label>
+            <br><br>
+            <input type="checkbox" name="agree" id="chkAgree">
+            <label id="agree">Agree to our terms and conditions</label>
+            <br><br>
             <label id="lblError"></label><br>
             <br>
             <input type="button" name="btnRegister" id="btnRegister" value="REGISTER" onclick="validateForm();">
