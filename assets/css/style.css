@@ -116,6 +116,10 @@ nav .container {
 #right-nav ul li .dropdown:hover .dropdown-content {display: block;}
 #right-nav ul li .dropdown .dropdown-content a:hover {background-color: #ddd; color:#333;}
 
+body{
+    background-color: rgba(238, 238, 238, 0.734);
+}
+
 /* Search bar */
 
 #searchbar {
