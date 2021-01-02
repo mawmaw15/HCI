@@ -14,6 +14,11 @@
     height: 100%;
 }
 
+#left-nav{
+    margin-left: -11.65%;
+    margin-top: 4px;
+}
+
 /* navbar */
 
 nav {
