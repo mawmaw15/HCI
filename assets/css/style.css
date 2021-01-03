@@ -292,6 +292,10 @@ footer p.copyright {
     text-align: center;
 }
 
+#short-desc{
+    text-align: justify;
+}
+
 @media only screen and (max-width: 800px) {
     #itemlist .container #itemlist-container {
         justify-content: space-evenly;
