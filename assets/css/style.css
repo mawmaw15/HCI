@@ -32,12 +32,24 @@ nav {
 }
 
 nav.scrolled {
-    background-color: #333;
+    background-color: #fff;
+    color: #333;
 }
 
 nav .container {
     display: flex;
     justify-content: space-between;
+}
+
+.logo {
+    background-image: url(../images/moon-custom-white.png);
+    background-size: cover;
+    width: 110px;
+    height: 65px;
+}
+
+.logo.scrolled {
+    background-image: url(../images/moon-custom-black.png);
 }
 
 #left-nav {
@@ -102,7 +114,7 @@ nav .container {
 }
 
 #right-nav ul li .dropdown .dropdown-content.scrolled {
-    background-color: #333;
+    background-color: #fff;
 }
 
 #right-nav ul li .dropdown .dropdown-content a {
@@ -112,9 +124,16 @@ nav .container {
     display: block;
 }
 
+#right-nav.scrolled ul li .dropdown .dropdown-content a {
+    color: #333;
+}
 
 #right-nav ul li .dropdown:hover .dropdown-content {display: block;}
 #right-nav ul li .dropdown .dropdown-content a:hover {background-color: #ddd; color:#333;}
+
+#right-nav.scrolled ul > li a {
+    color:#333;
+}
 
 body{
     background-color: rgba(238, 238, 238, 0.734);
@@ -237,8 +256,9 @@ body{
 footer {
     width: 100%;
     height: 30vh;
-    background-color: #333;
-    color:white;
+    border-top: 3px solid #333;
+    background-color: #fff;
+    color:#333;
 }
 
 footer .container{
