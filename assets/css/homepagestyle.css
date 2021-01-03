@@ -172,7 +172,7 @@ nav .container {
 
 #special-product .container .description button {
     width: 10em;
-    margin-left: 0;
+    margin: 1em 0 0 0;
 }
 
 #special-product .container div.images{
@@ -379,13 +379,12 @@ button{
 
 footer {
     width: 100%;
-    height: 30vh;
+    height: auto;
     background-color: #333;
     color:white;
 }
 
 footer .container{
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -409,4 +408,30 @@ footer .container .column-footer h2{
 
 footer p.copyright {
     text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .slider-object h2 {
+        font-size: 2.5em;
+    }
+    .slider-object h1 {
+        font-size: 3em;
+    }
+    .slider-object h3 {
+        font-size: 2em;
+    }
+    #peoples-comment .people {
+        width: 35em;
+    }
+    #peoples-comment .people .profile-desc {
+        padding-left: 3.25em;
+    }
+    #special-product .container .description {
+        width: 65%;
+        margin:3em 0 1em 0;
+    }
+    #promotion2 .container {
+        justify-content: center;
+    }
 }

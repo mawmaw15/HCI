@@ -278,6 +278,11 @@ footer .container .column-footer ul{
     padding-left: 2em;
 }
 
+footer .container .column-footer ul > li a{
+    text-decoration: none;
+    color: #333;
+}
+
 footer .container .column-footer h2{
     padding-top: 0.25em;
     padding-bottom: 0.5em;
@@ -285,4 +290,26 @@ footer .container .column-footer h2{
 
 footer p.copyright {
     text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    #itemlist .container #itemlist-container {
+        justify-content: space-evenly;
+    }
+    footer {
+        height:auto;
+        padding-bottom: 2em;
+    }
+    footer .container{
+        margin-left: 5%;
+        margin-right: 5%;
+    
+        width:90%;
+        height:auto;
+        padding-bottom: 1em;
+    }
+    footer .container .column-footer {
+        width:100%;
+        padding:1em;
+    }
 }
