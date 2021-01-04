@@ -381,6 +381,20 @@ button{
     color:#333;
 }
 
+.bawah{
+    display: flex;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gopay, .ovo, .dana{
+    margin-left: 20px;
+}
+
 footer {
     width: 100%;
     height: auto;
@@ -452,6 +466,9 @@ footer p.copyright {
         font-size: 9px;
     }
 
-    
+    .bawah{
+        display: flex;
+        flex-direction: column;
+    }
     
 }
