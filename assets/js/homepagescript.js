@@ -24,7 +24,7 @@ $(document).ready(function(){
 
         console.log(images)
         var index = Math.floor(Math.random() * images.length);
-        itemlist_ref.innerHTML +=  '<div class="item"><img style="background-image:url('+images[index]+')"><div class="description"><h1>'+names[index]+'</h1><p>Rp. '+prices[index]+'</p></div></div>'; 
+        itemlist_ref.innerHTML +=  '<div class="item"><img style="background-image:url('+images[index]+')"><div class="description"><h1>'+names[index]+'</h1><p>Rp'+prices[index]+'</p></div></div>'; 
     }
 
     setInterval(sliding, 3000);
